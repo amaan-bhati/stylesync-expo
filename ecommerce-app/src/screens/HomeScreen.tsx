@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 import ProductCard from "../components/ProductCard";
 
 const products = [
-  { id: "1", name: "Dress A", price: "$40", discount: "10%", image: "https://via.placeholder.com/150" },
+  { id: "1", name: "Dress A", price: "$40", discount: "10%", image: "https%3A%2F%2Fwww.nordstrom.com%2Fbrowse%2Fdesigner%2Fmen%2Fclothing%2Fsweatshirts-hoodies%3FfilterByBrand%3Dbalenciaga&psig=AOvVaw1Yv7fSFYVscTbn-2_DTkAi&ust=1742238748118000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNCO8qCnj4wDFQAAAAAdAAAAABAE" },
   { id: "2", name: "Dress B", price: "$50", discount: "15%", image: "https://via.placeholder.com/150" },
   { id: "3", name: "Dress C", price: "$60", discount: "20%", image: "https://via.placeholder.com/150" },
 ];
@@ -36,12 +36,12 @@ const HomeScreen = () => {
         )}
       />
 
-      <View style={styles.bottomNav}>
+      {/* <View style={styles.bottomNav}>
         <Text>🏠 Home</Text>
         <Text>📦 Orders</Text>
         <Text>🔎 Search</Text>
         <Text>👤 Profile</Text>
-      </View>
+      </View> */}
     </View>
   );
 };
