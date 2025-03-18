@@ -15,7 +15,7 @@ const HomeScreen = () => {
   return (
     <View style={styles.container}>
       <View style={styles.navbar}>
-        <Text style={styles.navTitle}>E-Commerce</Text>
+        <Text style={styles.navTitle}>StyleSync</Text>
         <View style={styles.navIcons}>
           <TouchableOpacity><Text>☰</Text></TouchableOpacity>
           <TouchableOpacity><Text>🛒</Text></TouchableOpacity>
